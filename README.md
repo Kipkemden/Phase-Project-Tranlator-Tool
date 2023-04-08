@@ -1,23 +1,35 @@
-# Phase-Project-Tranlator-Tool
-
-Translation Tool is a JavaScript application that allows users to translate text from English to different languages using the Google Translate API. The app is built using HTML, CSS, and JavaScript, and utilizes the Axios library to make HTTP requests to the API.
+## Translation Tool
+Translation Tool is a javascript application that allows users to translate text from one language to another. It uses the Google Translate API to perform the translations.
 
 ## Getting Started
-To use the app, you can simply open the index.html file in your browser. Once the page is loaded, you can select the target language from the dropdown menu, enter the text you want to translate in the input field, and click the "Translate" button. The translated text will appear in the output field.
+To get started with Translation Tool, follow these steps:
+
+Clone the repository to your local machine.
+Open the index.html file in your web browser.
+Enter the text you want to translate in the input field.
+Select the target language from the dropdown menu.
+Click the "Translate" button to perform the translation.
+The translated text will be displayed below the input field.
+## Supported Languages
+Translation Tool supports the following languages:
+
+Spanish
+French
+German
+Portuguese
+Swahili
+English
 
 ## API Key
-In order to use the Google Translate API, you will need to obtain an API key from Google. The app is currently using a RapidAPI key, but you can replace it with your own key if you have one. To replace the key, simply update the X-RapidAPI-Key and X-RapidAPI-Host headers in the options object with your own API key and host.
+Translation Tool uses the Google Translate API to perform translations. To use the API, you will need to obtain an API key from the Google Cloud Console. Once you have an API key, replace the YOUR_API_KEY_HERE placeholder in the script.js file with your actual API key.
 
-## How it Works
-When the user clicks the "Translate" button, the app sends a POST request to the Google Translate API endpoint with the following parameters:
+## Credits
+Translation Tool was created by [Your Name Here]. It uses the following technologies:
 
-q: The text to be translated
-target: The target language
-source: The source language (which is set to English by default)
-The response from the API contains an object with a translations property, which is an array of translation objects. The app extracts the first translation object from the array and displays the translated text in the output field.
+HTML
+CSS
+JavaScript
+Google Translate API
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-This app was built by Denis KIpkemoi. Special thanks to Google for providing the Google Translate API, and to the Axios team for creating a great library for making HTTP requests in JavaScript.
+Translation Tool is licensed under the MIT License. Feel free to use, modify, and distribute this code as you see fit.
