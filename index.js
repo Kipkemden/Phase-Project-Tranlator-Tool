@@ -1,6 +1,6 @@
 const form = document.querySelector('#translate-form');
     const translationResult = document.querySelector('#translation-result');
-    const apiKey = '7b2a91d96amsh6fa66244ce42089p13f0efjsn27a670054ff7';
+    const apiKey = ''; ////INPUT VALID API KEY HERE
 
     form.addEventListener('submit', event => {
       event.preventDefault();
